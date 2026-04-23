@@ -1,0 +1,13 @@
+class Pessoa: 
+	def __init__(self, nome, idade): 
+		self.nome=nome
+		self.idade=idade
+
+	def cumprimentar(self):
+		print (f"Olá, meu nome é {self.nome} e tenho {self.idade} anos.")
+
+pessoa1=Pessoa("Zacarias", 40)
+pessoa2=Pessoa("Estacio", 55)
+
+pessoa1.cumprimentar()
+pessoa2.cumprimentar()
