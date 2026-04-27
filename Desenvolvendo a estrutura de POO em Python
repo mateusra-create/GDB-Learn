@@ -1,0 +1,11 @@
+class Carro:
+	def __init__(self, marca, modelo, ano):
+		self.marca=marca
+		self.modelo=modelo
+		self.ano=ano
+
+carroA = Carro("Ferrari", "296 GTB", "2001")
+
+print(carroA.marca)
+print(carroA.modelo)
+print(carroA.ano)
